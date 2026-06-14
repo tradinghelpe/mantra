@@ -253,7 +253,7 @@
   <div class="controls">
     <button class="btn btn-xs" id="btnShuffle" title="Shuffle">🔀</button>
     <button class="btn btn-sm" id="btnPrev"    title="Previous">⏮</button>
-    <button class="btn btn-play" id="btnPlay"  title="Play/Pause">▶</button>
+    <button class="btn btn-play" id="btnPlay"  title="Play/Pause">▶️</button>
     <button class="btn btn-sm" id="btnNext"    title="Next">⏭</button>
     <button class="btn btn-xs" id="btnLoop"    title="Loop">🔁</button>
   </div>
@@ -319,7 +319,7 @@ const FALLBACK = "https://picsum.photos/seed/music/400/400";
 const audio      = document.getElementById('audio');
 let curIdx       = 0;
 let isPlaying    = false;
-let isLooping    = false;
+let isLooping    = true;
 let isShuffling  = false;
 let shuffled     = [];
 
